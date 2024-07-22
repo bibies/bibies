@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakewave</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('/mnt/data/D0888DD4-6A8D-4D04-8063-DC53170D7BB5.jpeg');
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 100px 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero-text {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #ff99cc;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .products img {
+            width: 100%;
+            max-width: 300px;
+        }
+        footer {
+            background-color: #ffcce6;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-text">Welcome to Bakewave</div>
+        <p>Delicious pink croquettes cookies made with love.</p>
+        <a href="#shop" class="button">Shop Now</a>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Bakewave is dedicated to bringing you the finest pink croquettes cookies...</p>
+        </section>
+        <section id="products" class="products">
+            <h2>Featured Products</h2>
+            <img src="/mnt/data/614B821E-BADA-4DAA-A120-08CE438F764A.jpeg" alt="Product Image">
+            <img src="/mnt/data/045686DC-819E-4BF6-AEB7-36B95BA5331D.jpeg" alt="Product Image">
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>"The best cookies I've ever tasted!" - Happy Customer</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bakewave. All rights reserved.</p>
+    </footer>
+</body>
+</html>
